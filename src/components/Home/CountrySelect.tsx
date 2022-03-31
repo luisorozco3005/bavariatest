@@ -19,6 +19,10 @@ export const CountrySelect = ({ filterList }: Props) => {
 
     const handleShow = () => { setShow(!show) }
 
+    const handleClick = (option:string)=>{
+        filterList(option)
+        setOptionSelected(option)
+    }
     return (
         <div onClick={handleShow}
             className='dark:text-white lg:w-1/6 py-3 px-5 mb-1 dark:bg-gray-700 bg-zinc-50 text-sm rounded-lg flex relative cursor-pointer'>
@@ -38,7 +42,7 @@ export const CountrySelect = ({ filterList }: Props) => {
                     {options.map((option) => (
                         <button key={option}
                         className='text-left p-2 rounded-lg hover:bg-cyan-600 hover:text-white hover:font-bold'
-                            onClick={() => (filterList(option), setOptionSelected(option))}
+                            onClick={() => (handleClick(option))}
                         >
                             {option}
                         </button>
