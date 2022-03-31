@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bavariatest/static/css/main.81d7d1ae.css",
+    "main.js": "/bavariatest/static/js/main.0bae3025.js",
+    "static/js/787.027e0118.chunk.js": "/bavariatest/static/js/787.027e0118.chunk.js",
+    "index.html": "/bavariatest/index.html",
+    "static/media/emptymoon.svg": "/bavariatest/static/media/emptymoon.428172759a0035bf9764dd2c8bab0ffd.svg",
+    "static/media/fullmoon.svg": "/bavariatest/static/media/fullmoon.e62a7dd45e4cfad9127b722eac7481c9.svg",
+    "static/media/search.svg": "/bavariatest/static/media/search.4b174aba3ca9225719f55dc131b8d17e.svg",
+    "static/media/whitesearch.svg": "/bavariatest/static/media/whitesearch.7827be7641bf6d8fcdb646cbdd751a90.svg",
+    "static/media/arrowback.svg": "/bavariatest/static/media/arrowback.ef02da4279102360fbcd4f5dce77648b.svg",
+    "static/media/arrowbackwhite.svg": "/bavariatest/static/media/arrowbackwhite.5b3257ef3e5073414004dabdf7023437.svg",
+    "static/media/arrowdown.svg": "/bavariatest/static/media/arrowdown.9599be1e4be474afd60905d860158340.svg",
+    "static/media/arrowdownwhite.svg": "/bavariatest/static/media/arrowdownwhite.d9428098378754b7303a787f42131304.svg",
+    "main.81d7d1ae.css.map": "/bavariatest/static/css/main.81d7d1ae.css.map",
+    "main.0bae3025.js.map": "/bavariatest/static/js/main.0bae3025.js.map",
+    "787.027e0118.chunk.js.map": "/bavariatest/static/js/787.027e0118.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81d7d1ae.css",
+    "static/js/main.0bae3025.js"
+  ]
+}
