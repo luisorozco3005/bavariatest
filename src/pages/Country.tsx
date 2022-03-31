@@ -47,7 +47,7 @@ export const Country = () => {
             <div>
                 <button onClick={goBack} className='dark:bg-gray-700 bg-zinc-50 rounded-lg flex cursor-pointer shadow-lg dark:shadow-gray-900 lg:w-40 w-20 px-3 py-2 justify-center items-center lg:mb-20 mb-6'>
                     <img src={`${theme.dark ? arrowbackwhite : arrowback}`}
-                        className='mr-2'
+                        className='mr-2' alt={'arrowbackicon'}
                     />
                     Back
                 </button>
@@ -58,6 +58,7 @@ export const Country = () => {
                     {actualCountry && (
                         <img src={actualCountry.flags.png}
                             className='w-full'
+                            alt={'countryflag'}
                         />
                     )}
                 </div>

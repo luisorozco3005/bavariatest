@@ -15,7 +15,7 @@ export const HomeHeader = ({ filterList,handleInput }: Props) => {
     <div className="flex justify-between pt-2	pb-12 flex-col lg:flex-row">
       <div className='dark:text-white lg:w-2/6 mb-1 dark:bg-gray-700 bg-zinc-50 text-sm rounded-lg flex relative cursor-pointer'>
         <img src={`${theme.dark ? searchwhite : search}`}
-          className='py-4 px-7'
+          className='py-4 px-7' alt={'searchicon'}
         />
         <input placeholder='Search for a country...'
         onChange={(e:any)=>(handleInput(e.target.value))} 

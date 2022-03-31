@@ -34,7 +34,7 @@ export const Header = () => {
             <button onClick={updateThemeDark} 
             className='text-lg font-semibold dark:text-white flex items-center'>
                 <img src={`${theme.dark ? fullmoon:emptymoon}`}
-                className='mr-2'/>
+                className='mr-2' alt={'moonicon'}/>
                 Dark mode
             </button>
         </div>

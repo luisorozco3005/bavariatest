@@ -31,7 +31,7 @@ export const CountrySelect = ({ filterList }: Props) => {
                 </span>
             </div>
             <div className='flex justify-center items-center'>
-                <img src={`${theme.dark ? arrowdownwhite : arrowdown}`} />
+                <img src={`${theme.dark ? arrowdownwhite : arrowdown}`} alt={'arrowicon'}/>
             </div>
             {show && (
                 <div className='absolute top-14 right-0 w-full flex dark:bg-gray-700 bg-zinc-50 rounded-lg py-3 px-3 flex-col shadow-lg dark:shadow-gray-800'>
