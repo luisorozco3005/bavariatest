@@ -27,7 +27,7 @@ export const Header = () => {
 
 
     return (
-        <div className='flex justify-between h-20 items-center lg:px-20 px-6 dark:bg-gray-700 bg-zinc-50 shadow-lg dark:shadow-gray-900 shadow-gray-300'>
+        <div className='flex justify-between h-20 items-center lg:px-20 px-6 dark:bg-gray-700 bg-zinc-50 shadow-lg dark:shadow-gray-900 shadow-gray-300 fixed top-0 w-full z-30' >
             <label className='lg:text-2xl  text-xl font-semibold dark:text-white'>
                 Where in the world?
             </label>
