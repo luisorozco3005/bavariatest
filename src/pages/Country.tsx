@@ -17,7 +17,7 @@ export const Country = () => {
         let pathname = window.location.pathname;
         let array = pathname.split("/")
         getCountryInfo(array[2])
-    }, [window.location.pathname])
+    }, [window.location.pathname])// eslint-disable-line react-hooks/exhaustive-deps
 
     const getCountryInfo = async (code: string) => {
         const { data } = await axios.get(`https://restcountries.com/v3.1/alpha/${code}`);

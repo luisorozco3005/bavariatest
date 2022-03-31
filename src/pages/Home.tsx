@@ -11,7 +11,7 @@ export const Home = () => {
 
     useEffect(() => {
         getInformation()
-    }, [])
+    }, [])// eslint-disable-line react-hooks/exhaustive-deps
 
     const getInformation = async () => {
         const { data } = await axios.get('https://restcountries.com/v3.1/all');
