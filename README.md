@@ -14,6 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+if you want yo run in your PC the script has to look like that
+    "start": "react-scripts start"
+for deploying has to look like this
+    "start": "node server/server.js",
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
