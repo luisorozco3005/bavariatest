@@ -43,7 +43,7 @@ export const Country = () => {
     }
 
     return (
-        <div className='dark:bg-gray-800 bg-zinc-200 lg:px-20 px-6 py-7 lg:py-20 min-h-screen dark:text-white'>
+        <div className='dark:bg-gray-800 bg-zinc-200 lg:px-20 px-6 py-7 lg:py-20 min-h-screen dark:text-white mt-20'>
             <div>
                 <button onClick={goBack} className='dark:bg-gray-700 bg-zinc-50 rounded-lg flex cursor-pointer shadow-lg dark:shadow-gray-900 lg:w-40 w-20 px-3 py-2 justify-center items-center lg:mb-20 mb-6'>
                     <img src={`${theme.dark ? arrowbackwhite : arrowback}`}
